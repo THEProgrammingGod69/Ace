@@ -1,0 +1,928 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ace Fitness Club — Gym in Ambegaon Budruk, Katraj, Pune | Open 6 AM–10 PM</title>
+  <meta name="description" content="Ace Fitness Club is the biggest gym in the Katraj–Ambegaon area: strength, cardio, CrossFit, Zumba, yoga, kickboxing, personal training and nutrition. Near Podar International School, Ambegaon BK, Pune. Open 6 AM–10 PM, 7 days. Call +91 83808 81555.">
+  <meta name="theme-color" content="#08090A">
+  <meta name="format-detection" content="telephone=no">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ace Fitness Club">
+  <meta property="og:title" content="Ace Fitness Club — Outside the comfort zone">
+  <meta property="og:description" content="Katraj–Ambegaon's biggest gym. Strength, cardio, CrossFit, Zumba, yoga & kickboxing under one roof. Open 6 AM–10 PM, every day.">
+  <meta property="og:image" content="assets/img/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_IN">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <link rel="preload" href="assets/fonts/archivo-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/jetbrains-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <!-- Intro gate: runs before paint so the loader never flashes on repeat visits. Self-heals after 6s. -->
+  <script>
+    (function (d) {
+      d.classList.add('js');
+      try {
+        var seen = sessionStorage.getItem('ace-intro');
+        var still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (!seen && !still) {
+          d.classList.add('is-loading');
+          setTimeout(function () { d.classList.remove('is-loading'); }, 6000);
+        }
+      } catch (e) {}
+    })(document.documentElement);
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ExerciseGym",
+    "name": "Ace Fitness Club",
+    "slogan": "All progress takes place outside the comfort zone.",
+    "description": "Biggest gym in the Katraj–Ambegaon area of Pune offering strength training, cardio, CrossFit, functional training, Zumba, yoga, kickboxing, abs & core batches, personal training and nutrition consultation.",
+    "image": "assets/img/og.png",
+    "telephone": "+91-83808-81555",
+    "priceRange": "₹200–₹10,000",
+    "currenciesAccepted": "INR",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Near Hotel Saurabh Family Restaurant, Opposite Podar International School, Pune–Mumbai Highway",
+      "addressLocality": "Ambegaon Budruk, Pune",
+      "addressRegion": "Maharashtra",
+      "postalCode": "411046",
+      "addressCountry": "IN"
+    },
+    "geo": { "@type": "GeoCoordinates", "latitude": 18.45481, "longitude": 73.834785 },
+    "areaServed": ["Ambegaon Budruk", "Ambegaon Pathar", "Katraj", "Dhankawadi", "Narhe", "Vadgaon Budruk"],
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "06:00",
+      "closes": "22:00"
+    }],
+    "amenityFeature": [
+      { "@type": "LocationFeatureSpecification", "name": "Locker facility", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Shower facility", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Free parking", "value": true },
+      { "@type": "LocationFeatureSpecification", "name": "Cardio equipment", "value": true }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/acefitnessclub_/",
+      "https://www.facebook.com/Acefitnessclub2/"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "What are Ace Fitness Club's timings?", "acceptedAnswer": { "@type": "Answer", "text": "Ace Fitness Club is open 6:00 AM to 10:00 PM, all seven days of the week." } },
+      { "@type": "Question", "name": "How much does a membership at Ace Fitness Club cost?", "acceptedAnswer": { "@type": "Answer", "text": "Listed prices: Day Pass ₹200, Monthly ₹2,500, Half-Yearly ₹8,000 and Annual ₹10,000. Ask the front desk about current offers." } },
+      { "@type": "Question", "name": "Where is Ace Fitness Club located?", "acceptedAnswer": { "@type": "Answer", "text": "Near Hotel Saurabh Family Restaurant, opposite Podar International School, on the Pune–Mumbai Highway in Ambegaon Budruk, Pune 411046." } },
+      { "@type": "Question", "name": "Which training formats does Ace Fitness Club offer?", "acceptedAnswer": { "@type": "Answer", "text": "Strength training, cardio, CrossFit, functional training, Zumba, yoga, kickboxing, dedicated abs batches, personal training and nutrition consultation." } }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- ============ INTRO: the bar gets loaded ============ -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__half loader__half--t"></div>
+    <div class="loader__half loader__half--b"></div>
+    <div class="loader__core">
+      <svg class="loader__bar" viewBox="0 0 360 120">
+        <rect class="loader__shaft" x="8" y="57" width="344" height="6" rx="1"/>
+        <g class="loader__side loader__side--l">
+          <rect class="lp" style="--i:0" x="112" y="14" width="14" height="92" rx="2"/>
+          <rect class="lp" style="--i:1" x="96" y="14" width="14" height="92" rx="2"/>
+          <rect class="lp" style="--i:2" x="80" y="14" width="14" height="92" rx="2"/>
+          <rect class="lp lp--volt" style="--i:3" x="64" y="14" width="14" height="92" rx="2"/>
+        </g>
+        <g class="loader__side loader__side--r">
+          <rect class="lp" style="--i:0" x="234" y="14" width="14" height="92" rx="2"/>
+          <rect class="lp" style="--i:1" x="250" y="14" width="14" height="92" rx="2"/>
+          <rect class="lp" style="--i:2" x="266" y="14" width="14" height="92" rx="2"/>
+          <rect class="lp lp--volt" style="--i:3" x="282" y="14" width="14" height="92" rx="2"/>
+        </g>
+      </svg>
+      <div class="loader__read">
+        <span>Loading the bar</span>
+        <b><span data-loader-kg>20</span> KG</b>
+      </div>
+    </div>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"><i></i></div>
+  <div class="cursor is-hidden" aria-hidden="true"><span class="cursor__ring"><i></i></span><span class="cursor__dot"></span></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" data-nav>
+    <div class="container nav__in">
+      <a class="logo" href="#top">
+        <svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M8 42 24 7l16 35" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linejoin="miter"/>
+          <path d="M10.5 30h27" stroke="#D7FF3A" stroke-width="2.4"/>
+          <rect x="7" y="25" width="4" height="10" rx="1" fill="#D7FF3A"/>
+          <rect x="37" y="25" width="4" height="10" rx="1" fill="#D7FF3A"/>
+        </svg>
+        <span class="logo__word"><span class="logo__ace">ACE</span> <span class="logo__sub">FITNESS CLUB</span></span>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#about">Club</a>
+        <a href="#training">Training</a>
+        <a href="#floor">Floor</a>
+        <a href="#lab">Rep Lab</a>
+        <a href="#plans">Plans</a>
+        <a href="#visit">Visit</a>
+      </nav>
+
+      <div class="nav__right">
+        <span class="status" data-status><i></i><span data-status-text>Open daily 6 AM – 10 PM</span></span>
+        <a class="btn btn--volt btn--sm nav__cta" href="https://wa.me/918380881555" data-wa="Hi Ace Fitness Club! I'd like to book a visit to the gym." target="_blank" rel="noopener">Book a visit</a>
+        <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu" data-burger><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" aria-hidden="true" inert data-menu>
+    <nav aria-label="Mobile">
+      <ol class="menu__list">
+        <li style="--i:0"><a href="#about"><small>01</small>Club</a></li>
+        <li style="--i:1"><a href="#training"><small>02</small>Training</a></li>
+        <li style="--i:2"><a href="#floor"><small>03</small>Floor</a></li>
+        <li style="--i:3"><a href="#lab"><small>04</small>Rep Lab</a></li>
+        <li style="--i:4"><a href="#plans"><small>05</small>Plans</a></li>
+        <li style="--i:5"><a href="#visit"><small>06</small>Visit</a></li>
+      </ol>
+    </nav>
+    <div class="menu__foot">
+      <a href="tel:+918380881555">+91 83808 81555</a>
+      <span>Ambegaon BK, Pune 411046</span>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top" aria-labelledby="hero-title" data-hero>
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__forge" aria-hidden="true"><canvas data-forge></canvas></div>
+
+      <div class="hero__hud hero__hud--l" aria-hidden="true">
+        <span class="hud-k">Specimen <b data-forge-index>00</b></span>
+        <span class="hud-v" data-forge-label>ACE // IRON DUST</span>
+      </div>
+      <div class="hero__hud hero__hud--r">
+        <span class="hud-k" aria-hidden="true">Pune <b data-clock>--:--:--</b> IST</span>
+        <span class="hud-v" aria-hidden="true">18.4548° N · 73.8348° E</span>
+        <button class="hud-btn" type="button" data-forge-next>Next specimen <span aria-hidden="true">→</span></button>
+      </div>
+
+      <div class="container hero__inner" data-hero-inner>
+        <p class="eyebrow hero__eyebrow"><span class="dot"></span>Ambegaon BK · Katraj · Pune</p>
+        <h1 class="hero__title" id="hero-title">
+          <span class="sr-only">Ace Fitness Club, Ambegaon Budruk, Pune — </span>
+          <span class="hl" style="--i:0"><span>Outside</span></span>
+          <span class="hl" style="--i:1"><span>the <small class="hl__note" aria-hidden="true">All progress<br>takes place</small></span></span>
+          <span class="hl" style="--i:2"><span>comfort</span></span>
+          <span class="hl" style="--i:3"><span><em class="volt">zone.</em></span></span>
+        </h1>
+        <div class="hero__foot">
+          <p class="hero__lead">All progress takes place outside the comfort zone. Ace Fitness Club is the <strong>biggest gym in Katraj–Ambegaon</strong>: iron, cardio, CrossFit, Zumba, yoga and kickboxing under one roof, with trainers on the floor from 6 AM to 10 PM, every single day.</p>
+          <div class="hero__ctas">
+            <a class="btn btn--volt" href="https://wa.me/918380881555" data-wa="Hi Ace Fitness Club! I'd like to book a visit to the gym." target="_blank" rel="noopener">Book a visit <span class="arr" aria-hidden="true">↗</span></a>
+            <a class="btn btn--ghost" href="#plans">Memberships</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container hero__rail">
+        <div><span class="k">Open daily</span><span class="v">06:00 — 22:00</span></div>
+        <div><span class="k">Justdial rating</span><span class="v">4.2 ★ · 340+</span></div>
+        <div><span class="k">Day pass</span><span class="v">₹200</span></div>
+        <div class="hero__scroll" aria-hidden="true"><span class="k">Scroll</span><span class="v"><i></i></span></div>
+      </div>
+    </section>
+
+    <!-- ============ TICKER ============ -->
+    <section class="ticker" aria-label="Disciplines at Ace">
+      <div class="ticker__skew">
+        <div class="ticker__row" aria-hidden="true">
+          <div class="ticker__group">
+            <span class="ticker__item">Strength</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Cardio</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">CrossFit</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Functional</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Zumba</span><span class="ticker__star">✦</span>
+          </div>
+          <div class="ticker__group">
+            <span class="ticker__item">Strength</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Cardio</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">CrossFit</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Functional</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Zumba</span><span class="ticker__star">✦</span>
+          </div>
+        </div>
+        <div class="ticker__row ticker__row--rev" aria-hidden="true">
+          <div class="ticker__group">
+            <span class="ticker__item">Yoga</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Kickboxing</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Abs &amp; Core</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Personal Training</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Nutrition</span><span class="ticker__star">✦</span>
+          </div>
+          <div class="ticker__group">
+            <span class="ticker__item">Yoga</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Kickboxing</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Abs &amp; Core</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Personal Training</span><span class="ticker__star">✦</span>
+            <span class="ticker__item">Nutrition</span><span class="ticker__star">✦</span>
+          </div>
+        </div>
+      </div>
+      <p class="sr-only">Strength, cardio, CrossFit, functional training, Zumba, yoga, kickboxing, abs and core, personal training and nutrition.</p>
+    </section>
+
+    <!-- ============ 01 CLUB ============ -->
+    <section class="sec about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="sec-tag"><b>[01]</b> The club</div>
+        <h2 class="display h2 about__title" id="about-title" data-split>Built for <em class="volt">every</em> body.</h2>
+
+        <p class="about__scrub" data-scrub>At Ace, we believe everyone deserves a fit and healthy life. So we made it simple, affordable and convenient to chase your goals. Beginner or pro, young or old: chalk up, step in, and find a trainer already on the floor. We're here for <span class="hot">everybody.</span></p>
+
+        <div class="stats">
+          <div class="stat" data-reveal>
+            <span class="sr-only">10 plus</span>
+            <div class="stat__num" aria-hidden="true"><span data-odo="10"></span><span class="stat__unit">+</span></div>
+            <div class="stat__k">Years in business</div>
+          </div>
+          <div class="stat" data-reveal style="--d:1">
+            <span class="sr-only">4.2 out of 5</span>
+            <div class="stat__num" aria-hidden="true"><span data-odo="4.2"></span><span class="stat__unit volt">★</span></div>
+            <div class="stat__k">Justdial · 340+ ratings</div>
+          </div>
+          <div class="stat" data-reveal style="--d:2">
+            <span class="sr-only">16 hours</span>
+            <div class="stat__num" aria-hidden="true"><span data-odo="16"></span><span class="stat__unit">h</span></div>
+            <div class="stat__k">On the floor, daily</div>
+          </div>
+          <div class="stat" data-reveal style="--d:3">
+            <span class="sr-only">7 days</span>
+            <div class="stat__num" aria-hidden="true"><span data-odo="07"></span><span class="stat__unit">/7</span></div>
+            <div class="stat__k">No off days</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 TRAINING (pinned horizontal) ============ -->
+    <section class="programs" id="training" aria-labelledby="training-title" data-programs>
+      <div class="programs__sticky">
+        <div class="container programs__head">
+          <div>
+            <div class="sec-tag"><b>[02]</b> Training</div>
+            <h2 class="display h2" id="training-title" data-split>Ten ways to <em class="volt">sweat.</em></h2>
+          </div>
+          <div class="programs__meta">
+            <p class="sec-aside">Ten disciplines, one roof. Batch timings shift with the season, so ask the front desk for this month's schedule.</p>
+            <div class="programs__count mono" aria-hidden="true"><b data-prog-count>01</b> / 10</div>
+          </div>
+        </div>
+
+        <div class="programs__viewport">
+          <ol class="programs__track" data-track>
+            <li class="pcard" data-tilt data-live>
+              <div class="pcard__top">
+                <span class="pcard__num">01</span>
+                <span class="pcard__tag mono">Iron</span>
+              </div>
+              <div class="pcard__stage"><svg class="glyph g-lift" viewBox="0 0 64 64" aria-hidden="true"><g class="g-lift__bar"><path d="M4 28h56"/><rect x="11" y="17" width="6" height="22" rx="1"/><rect x="47" y="17" width="6" height="22" rx="1"/><rect x="5" y="21" width="5" height="14" rx="1"/><rect x="54" y="21" width="5" height="14" rx="1"/></g><path class="g-dim" d="M4 58h56"/></svg></div>
+              <div>
+                <h3>Strength Training</h3>
+                <p>Racks, free weights and machines for progressive, measurable strength. The iron never lies.</p>
+                <div class="chips"><span class="chip">Floor access</span><span class="chip">All levels</span></div>
+              </div>
+            </li>
+            <li class="pcard" data-tilt data-live>
+              <div class="pcard__top">
+                <span class="pcard__num">02</span>
+                <span class="pcard__tag mono">Engine</span>
+              </div>
+              <div class="pcard__stage"><svg class="glyph g-ecg" viewBox="0 0 64 64" aria-hidden="true"><path class="g-dim" d="M2 34h14l4-8 5 18 6-30 5 26 4-6h22"/><path class="g-ecg__pulse" pathLength="100" d="M2 34h14l4-8 5 18 6-30 5 26 4-6h22"/></svg></div>
+              <div>
+                <h3>Cardio Zone</h3>
+                <p>Dedicated cardio equipment to build your engine, burn fat and keep your heart in shape.</p>
+                <div class="chips"><span class="chip">Floor access</span><span class="chip">Fat loss</span></div>
+              </div>
+            </li>
+            <li class="pcard" data-tilt data-live>
+              <div class="pcard__top">
+                <span class="pcard__num">03</span>
+                <span class="pcard__tag mono">Conditioning</span>
+              </div>
+              <div class="pcard__stage"><svg class="glyph g-kb" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="5" r="2.2" fill="currentColor" stroke="none"/><g class="g-kb__bell"><path d="M32 6v15"/><path d="M24 31a8 8 0 0 1 16 0"/><circle cx="32" cy="43" r="13"/><path class="g-dim" d="M26 43h12"/></g></svg></div>
+              <div>
+                <h3>CrossFit</h3>
+                <p>High-intensity, constantly varied conditioning that makes you ready for anything life throws.</p>
+                <div class="chips"><span class="chip">Group batch</span><span class="chip">High intensity</span></div>
+              </div>
+            </li>
+            <li class="pcard" data-tilt data-live>
+              <div class="pcard__top">
+                <span class="pcard__num">04</span>
+                <span class="pcard__tag mono">Movement</span>
+              </div>
+              <div class="pcard__stage"><svg class="glyph g-hex" viewBox="0 0 64 64" aria-hidden="true"><polygon class="g-hex__o" points="32,5 55,18.5 55,45.5 32,59 9,45.5 9,18.5"/><rect class="g-hex__i" x="23" y="23" width="18" height="18"/><circle cx="32" cy="32" r="2.4" fill="currentColor" stroke="none"/></svg></div>
+              <div>
+                <h3>Functional Training</h3>
+                <p>Push, pull, hinge, carry. Movement-first training for strength you can use outside the gym.</p>
+                <div class="chips"><span class="chip">Group batch</span><span class="chip">Mobility</span></div>
+              </div>
+            </li>
+            <li class="pcard" data-tilt data-live>
+              <div class="pcard__top">
+                <span class="pcard__num">05</span>
+                <span class="pcard__tag mono">Dance</span>
+              </div>
+              <div class="pcard__stage"><svg class="glyph g-eq" viewBox="0 0 64 64" aria-hidden="true"><rect style="--k:0" x="7" y="12" width="5" height="44"/><rect style="--k:1" x="17" y="12" width="5" height="44"/><rect style="--k:2" x="27" y="12" width="5" height="44"/><rect style="--k:3" x="37" y="12" width="5" height="44"/><rect style="--k:4" x="47" y="12" width="5" height="44"/><path class="g-dim" d="M3 59h58"/></svg></div>
+              <div>
+                <h3>Zumba</h3>
+                <p>Latin rhythms, nonstop movement and a room full of energy. Cardio that never feels like cardio.</p>
+                <div class="chips"><span class="chip">Group batch</span><span class="chip">Dance fitness</span></div>
+              </div>
+            </li>
+            <li class="pcard" data-tilt data-live>
+              <div class="pcard__top">
+                <span class="pcard__num">06</span>
+                <span class="pcard__tag mono">Recovery</span>
+              </div>
+              <div class="pcard__stage"><svg class="glyph g-breath" viewBox="0 0 64 64" aria-hidden="true"><circle class="g-dim" cx="32" cy="32" r="27" stroke-dasharray="2 5"/><circle class="g-breath__in" cx="32" cy="32" r="18"/><circle cx="32" cy="32" r="2.4" fill="currentColor" stroke="none"/></svg></div>
+              <div>
+                <h3>Yoga</h3>
+                <p>Breath, balance and mobility to recover from the heavy days and move better on all the others.</p>
+                <div class="chips"><span class="chip">Group batch</span><span class="chip">Recovery</span></div>
+              </div>
+            </li>
+            <li class="pcard" data-tilt data-live>
+              <div class="pcard__top">
+                <span class="pcard__num">07</span>
+                <span class="pcard__tag mono">Combat</span>
+              </div>
+              <div class="pcard__stage"><svg class="glyph g-kick" viewBox="0 0 64 64" aria-hidden="true"><g class="g-kick__ring"><circle cx="47" cy="32" r="10"/></g><g class="g-kick__ring g-kick__ring--2"><circle cx="47" cy="32" r="10"/></g><g class="g-kick__fist"><rect x="12" y="24" width="18" height="16" rx="5"/><path d="M2 32h10"/><path class="g-dim" d="M18 28v8"/></g></svg></div>
+              <div>
+                <h3>Kickboxing</h3>
+                <p>Strikes, footwork and conditioning rounds that torch calories and build real confidence.</p>
+                <div class="chips"><span class="chip">Group batch</span><span class="chip">Combat</span></div>
+              </div>
+            </li>
+            <li class="pcard" data-tilt data-live>
+              <div class="pcard__top">
+                <span class="pcard__num">08</span>
+                <span class="pcard__tag mono">Core</span>
+              </div>
+              <div class="pcard__stage"><svg class="glyph g-abs" viewBox="0 0 64 64" aria-hidden="true"><rect style="--k:0" x="19" y="9" width="12" height="13" rx="2"/><rect style="--k:1" x="33" y="9" width="12" height="13" rx="2"/><rect style="--k:2" x="19" y="25" width="12" height="13" rx="2"/><rect style="--k:3" x="33" y="25" width="12" height="13" rx="2"/><rect style="--k:4" x="19" y="41" width="12" height="13" rx="2"/><rect style="--k:5" x="33" y="41" width="12" height="13" rx="2"/></svg></div>
+              <div>
+                <h3>Abs &amp; Core</h3>
+                <p>Dedicated abs batches, twice every week. Brace harder, lift heavier, stand taller.</p>
+                <div class="chips"><span class="chip">Twice weekly</span><span class="chip">Core</span></div>
+              </div>
+            </li>
+            <li class="pcard" data-tilt data-live>
+              <div class="pcard__top">
+                <span class="pcard__num">09</span>
+                <span class="pcard__tag mono">Coaching</span>
+              </div>
+              <div class="pcard__stage"><svg class="glyph g-aim" viewBox="0 0 64 64" aria-hidden="true"><circle class="g-aim__o" cx="32" cy="32" r="25" stroke-dasharray="10 6"/><path d="M32 2v14M32 48v14M2 32h14M48 32h14"/><circle class="g-aim__c" cx="32" cy="32" r="5"/></svg></div>
+              <div>
+                <h3>Personal Training</h3>
+                <p>A coach, a plan and real accountability, built around your body, your goal and your schedule.</p>
+                <div class="chips"><span class="chip">1-on-1</span><span class="chip">Custom plan</span></div>
+              </div>
+            </li>
+            <li class="pcard" data-tilt data-live>
+              <div class="pcard__top">
+                <span class="pcard__num">10</span>
+                <span class="pcard__tag mono">Fuel</span>
+              </div>
+              <div class="pcard__stage"><svg class="glyph g-macro" viewBox="0 0 64 64" aria-hidden="true"><g class="g-macro__ring"><circle cx="32" cy="32" r="21" pathLength="100" stroke-dasharray="30 70" stroke-width="5"/><circle class="g-dim" cx="32" cy="32" r="21" pathLength="100" stroke-dasharray="0 32 42 26" stroke-width="5"/><circle cx="32" cy="32" r="21" pathLength="100" stroke-dasharray="0 76 22 2" stroke-width="5" opacity=".55"/></g><circle cx="32" cy="32" r="9" class="g-dim"/></svg></div>
+              <div>
+                <h3>Nutrition</h3>
+                <p>Personalised nutrition consultation so the work you put in on the floor actually shows.</p>
+                <div class="chips"><span class="chip">1-on-1</span><span class="chip">Diet plans</span></div>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div class="container programs__foot" aria-hidden="true">
+          <div class="programs__bar"><i></i></div>
+          <span class="mono programs__hint"><span class="only-pin">Scroll to move the rack →</span><span class="only-swipe">Swipe the rack →</span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 FLOOR ============ -->
+    <section class="sec floor" id="floor" aria-labelledby="floor-title">
+      <div class="container">
+        <div class="sec-head">
+          <div>
+            <div class="sec-tag"><b>[03]</b> The floor</div>
+            <h2 class="display h2" id="floor-title" data-split>Everything you need. <span class="outline">Nothing in the way.</span></h2>
+          </div>
+          <figure class="floor__quote" data-reveal>
+            <blockquote>“Great facilities, helpful trainers and staff, cleanliness 10/10, open all day, ample parking space available.”</blockquote>
+            <figcaption>Kartik — Google review</figcaption>
+          </figure>
+        </div>
+
+        <ul class="amen" data-draw>
+          <li class="amen__cell" style="--i:0">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M3 18h12.5L19 7"/><path pathLength="1" d="M17.5 7H21M4 18v2.5M15 18v2.5"/><circle pathLength="1" cx="11" cy="5" r="1.8"/><path pathLength="1" d="M11 7l-1.5 5 3 2v4M9.5 12 7 14"/></svg>
+            <h3>Cardio Zone</h3><p>Dedicated cardio equipment</p>
+          </li>
+          <li class="amen__cell" style="--i:1">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M6.5 7v10M17.5 7v10M3.5 9.5v5M20.5 9.5v5M6.5 12h11"/></svg>
+            <h3>Strength Floor</h3><p>Free weights &amp; machines</p>
+          </li>
+          <li class="amen__cell" style="--i:2">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle pathLength="1" cx="9" cy="6" r="2.5"/><path pathLength="1" d="M4.5 20v-5a4.5 4.5 0 0 1 9 0v5"/><path pathLength="1" d="M15 9h6v8h-6z"/><path pathLength="1" d="M16.5 12h3M16.5 14.5h2"/></svg>
+            <h3>Floor Trainers</h3><p>Form checks &amp; guidance</p>
+          </li>
+          <li class="amen__cell" style="--i:3">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect pathLength="1" x="4.5" y="10.5" width="15" height="10.5" rx="2"/><path pathLength="1" d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/><path pathLength="1" d="M12 14.5v3"/></svg>
+            <h3>Lockers</h3><p>Secure storage for your gear</p>
+          </li>
+          <li class="amen__cell" style="--i:4">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M5 21V8a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4"/><path pathLength="1" d="M10 8.5h6"/><path pathLength="1" d="M11 12l-.5 2M13 12v2.5M15 12l.5 2M12 16.5l-.3 1.5M14 16.5l.3 1.5"/></svg>
+            <h3>Showers</h3><p>Freshen up post-session</p>
+          </li>
+          <li class="amen__cell" style="--i:5">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M10 6.5a2 2 0 1 1 2.8 1.8c-.5.3-.8.7-.8 1.3V11"/><path pathLength="1" d="M12 11 3 18h18z"/></svg>
+            <h3>Changing Rooms</h3><p>Clean, private, ready</p>
+          </li>
+          <li class="amen__cell" style="--i:6">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect pathLength="1" x="3.5" y="3.5" width="17" height="17" rx="3"/><path pathLength="1" d="M9.5 17V7.5H13a3 3 0 0 1 0 6H9.5"/></svg>
+            <h3>Free Parking</h3><p>Ample space, zero hunting</p>
+          </li>
+          <li class="amen__cell" style="--i:7">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M3 8.5 15 5l2 5.5L5 14z"/><path pathLength="1" d="M15.8 10.8 18 15h3"/><path pathLength="1" d="M6 14v3.5H3"/></svg>
+            <h3>CCTV</h3><p>Monitored floor &amp; entry</p>
+          </li>
+          <li class="amen__cell" style="--i:8">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M2.5 9a14 14 0 0 1 19 0"/><path pathLength="1" d="M5.5 12.5a9.5 9.5 0 0 1 13 0"/><path pathLength="1" d="M8.7 16a5 5 0 0 1 6.6 0"/><circle pathLength="1" cx="12" cy="19.5" r="1"/></svg>
+            <h3>Wi-Fi</h3><p>Stay connected between sets</p>
+          </li>
+          <li class="amen__cell" style="--i:9">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M9 18V5l11-2v13"/><circle pathLength="1" cx="6.5" cy="18" r="2.5"/><circle pathLength="1" cx="17.5" cy="16" r="2.5"/></svg>
+            <h3>Music &amp; TV</h3><p>Volume up, focus on</p>
+          </li>
+          <li class="amen__cell" style="--i:10">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect pathLength="1" x="6.5" y="2.5" width="11" height="19" rx="2.5"/><path pathLength="1" d="M12.8 7.5 10.5 12h3l-2.3 4.5"/></svg>
+            <h3>Charging Points</h3><p>Power up between sets</p>
+          </li>
+          <li class="amen__cell" style="--i:11">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path pathLength="1" d="M12 7.5c-2.8-2.6-8-1.4-8 3.8 0 5 3.8 9.2 8 9.2s8-4.2 8-9.2c0-5.2-5.2-6.4-8-3.8z"/><path pathLength="1" d="M12 7.5c0-2 1-3.8 3-4.5"/></svg>
+            <h3>Nutrition Desk</h3><p>Consultation &amp; support</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 04 REP LAB ============ -->
+    <section class="sec lab" id="lab" aria-labelledby="lab-title">
+      <div class="container">
+        <div class="sec-head">
+          <div>
+            <div class="sec-tag"><b>[04]</b> Rep lab</div>
+            <h2 class="display h2" id="lab-title" data-split>Know your <em class="volt">numbers.</em></h2>
+          </div>
+          <p class="sec-aside" data-reveal>Estimate your one-rep max, see exactly how to load the bar, and check your BMI. Then let our floor trainers turn the numbers into a plan.</p>
+        </div>
+
+        <div class="lab__panel hud" data-reveal>
+          <div class="lab__tabs" role="tablist" aria-label="Rep lab tools">
+            <button class="lab__tab" role="tab" id="tab-rm" aria-controls="panel-rm" aria-selected="true">1RM + plate loader</button>
+            <button class="lab__tab" role="tab" id="tab-bmi" aria-controls="panel-bmi" aria-selected="false" tabindex="-1">BMI scan</button>
+          </div>
+
+          <!-- 1RM -->
+          <div class="lab__body" role="tabpanel" id="panel-rm" aria-labelledby="tab-rm">
+            <div class="lab__controls">
+              <div class="field-range">
+                <label for="rm-weight">Weight lifted <output data-rm-w>80</output> kg</label>
+                <input class="range" id="rm-weight" type="range" min="20" max="250" step="2.5" value="80">
+              </div>
+              <div class="field-range">
+                <label for="rm-reps">Clean reps <output data-rm-r>5</output></label>
+                <input class="range" id="rm-reps" type="range" min="1" max="12" step="1" value="5">
+              </div>
+              <div class="rm-zones" aria-live="polite">
+                <div><span>Max strength · 90%</span><b data-zone="0.9">—</b></div>
+                <div><span>Strength · 80%</span><b data-zone="0.8">—</b></div>
+                <div><span>Hypertrophy · 70%</span><b data-zone="0.7">—</b></div>
+                <div><span>Endurance · 60%</span><b data-zone="0.6">—</b></div>
+              </div>
+              <p class="lab__note">Epley estimate, most accurate between 2 and 10 reps. Always lift heavy with a spotter.</p>
+            </div>
+
+            <div class="lab__out">
+              <div class="lab__readout">
+                <span class="mono">Estimated 1RM</span>
+                <div class="lab__big"><b data-rm-one aria-live="polite">93</b><span>kg</span></div>
+              </div>
+              <div class="pct" role="group" aria-label="Load the bar at">
+                <button type="button" class="pct__b is-on" data-pct="100" aria-pressed="true">100%</button>
+                <button type="button" class="pct__b" data-pct="90" aria-pressed="false">90%</button>
+                <button type="button" class="pct__b" data-pct="80" aria-pressed="false">80%</button>
+                <button type="button" class="pct__b" data-pct="70" aria-pressed="false">70%</button>
+                <button type="button" class="pct__b" data-pct="60" aria-pressed="false">60%</button>
+              </div>
+              <div class="bar" aria-hidden="true">
+                <div class="bar__side bar__side--l" data-side="l"></div>
+                <div class="bar__collar"></div>
+                <div class="bar__shaft"></div>
+                <div class="bar__collar"></div>
+                <div class="bar__side bar__side--r" data-side="r"></div>
+              </div>
+              <p class="bar__legend mono" data-rm-legend aria-live="polite">—</p>
+            </div>
+          </div>
+
+          <!-- BMI -->
+          <div class="lab__body" role="tabpanel" id="panel-bmi" aria-labelledby="tab-bmi" hidden>
+            <div class="lab__controls">
+              <div class="field-range">
+                <label for="bmi-h">Height <output data-bmi-h>170</output> cm</label>
+                <input class="range" id="bmi-h" type="range" min="130" max="210" step="1" value="170">
+              </div>
+              <div class="field-range">
+                <label for="bmi-w">Weight <output data-bmi-w>72</output> kg</label>
+                <input class="range" id="bmi-w" type="range" min="35" max="180" step="0.5" value="72">
+              </div>
+              <p class="lab__note">WHO adult bands. For South Asian adults, health risk starts rising from a BMI of 23, so treat it as a starting point, not a verdict.</p>
+            </div>
+            <div class="lab__out">
+              <div class="gauge">
+                <svg viewBox="0 0 300 172" aria-hidden="true" data-gauge>
+                  <g data-gauge-arcs></g>
+                  <g class="gauge__needle" data-gauge-needle><path d="M150 150 L150 44"/><circle cx="150" cy="150" r="7"/></g>
+                </svg>
+                <div class="gauge__read">
+                  <b data-bmi-val aria-live="polite">24.9</b>
+                  <span data-bmi-cat>Healthy</span>
+                </div>
+              </div>
+              <p class="bar__legend mono" data-bmi-range>—</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05 PLANS ============ -->
+    <section class="sec plans" id="plans" aria-labelledby="plans-title">
+      <div class="container">
+        <div class="sec-head">
+          <div>
+            <div class="sec-tag"><b>[05]</b> Membership</div>
+            <h2 class="display h2" id="plans-title" data-split>Pick your <em class="volt">commitment.</em></h2>
+          </div>
+          <p class="sec-aside" data-reveal>The longer you commit, the less every session costs. Prices as listed publicly; ask the front desk about current offers and personal-training add-ons.</p>
+        </div>
+
+        <div class="plans__grid">
+          <article class="plan" data-spot data-reveal>
+            <header><span class="plan__name">Day Pass</span><span class="plan__tag">Drop in</span></header>
+            <div class="plan__price"><span class="cur">₹</span>200</div>
+            <div class="plan__per mono">One full day · no strings</div>
+            <ul class="plan__list">
+              <li>Full gym floor access</li>
+              <li>Strength &amp; cardio zones</li>
+              <li>Trainer guidance on the floor</li>
+              <li>Lockers &amp; showers</li>
+            </ul>
+            <a class="btn btn--ghost plan__cta" href="https://wa.me/918380881555" data-wa="Hi Ace Fitness Club! I'd like a Day Pass (₹200)." target="_blank" rel="noopener">Grab a day pass</a>
+          </article>
+
+          <article class="plan" data-spot data-reveal style="--d:1">
+            <header><span class="plan__name">Monthly</span><span class="plan__tag">Test drive</span></header>
+            <div class="plan__price"><span class="cur">₹</span>2,500</div>
+            <div class="plan__per mono">≈ ₹83 / day</div>
+            <ul class="plan__list">
+              <li>Full gym floor access</li>
+              <li>Strength &amp; cardio zones</li>
+              <li>Trainer guidance on the floor</li>
+              <li>Lockers &amp; showers</li>
+            </ul>
+            <a class="btn btn--ghost plan__cta" href="https://wa.me/918380881555" data-wa="Hi Ace Fitness Club! I'm interested in the Monthly membership (₹2,500)." target="_blank" rel="noopener">Start monthly</a>
+          </article>
+
+          <article class="plan" data-spot data-reveal style="--d:2">
+            <header><span class="plan__name">Half-Yearly</span><span class="plan__tag plan__tag--save">Save ₹7,000</span></header>
+            <div class="plan__price"><span class="cur">₹</span>8,000</div>
+            <div class="plan__per mono">≈ ₹44 / day · 6 months</div>
+            <ul class="plan__list">
+              <li>Full gym floor access</li>
+              <li>Strength &amp; cardio zones</li>
+              <li>Trainer guidance on the floor</li>
+              <li>Lockers &amp; showers</li>
+            </ul>
+            <a class="btn btn--ghost plan__cta" href="https://wa.me/918380881555" data-wa="Hi Ace Fitness Club! I'm interested in the Half-Yearly membership (₹8,000)." target="_blank" rel="noopener">Build the habit</a>
+          </article>
+
+          <article class="plan plan--hero" data-spot data-reveal style="--d:3">
+            <header><span class="plan__name">Annual</span><span class="plan__tag">Best value</span></header>
+            <div class="plan__price"><span class="cur">₹</span>10,000</div>
+            <div class="plan__per mono">≈ ₹27 / day · save ₹20,000</div>
+            <ul class="plan__list">
+              <li>Full gym floor access</li>
+              <li>Strength &amp; cardio zones</li>
+              <li>Trainer guidance on the floor</li>
+              <li>Lockers &amp; showers</li>
+            </ul>
+            <a class="btn btn--dark plan__cta" href="https://wa.me/918380881555" data-wa="Hi Ace Fitness Club! I'd like to join with the Annual membership (₹10,000)." target="_blank" rel="noopener">Become a regular <span class="arr" aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <p class="plans__fine mono">Savings compared with paying monthly. Personal training, CrossFit, Zumba, yoga and kickboxing batches: ask the desk for current timings and fees.</p>
+      </div>
+    </section>
+
+    <!-- ============ 06 VOICES ============ -->
+    <section class="sec voices" id="reviews" aria-labelledby="voices-title">
+      <div class="container">
+        <div class="sec-tag"><b>[06]</b> Members</div>
+        <div class="voices__grid">
+          <div class="voices__side">
+            <h2 class="display h2" id="voices-title" data-split>Heard on the <em class="volt">floor.</em></h2>
+            <div class="scores">
+              <div class="score hud" data-reveal>
+                <b>4.2</b>
+                <div><span class="stars" aria-hidden="true">★★★★<i>★</i></span><span class="mono">Justdial · 340+ ratings</span></div>
+              </div>
+              <div class="score hud" data-reveal style="--d:1">
+                <b>4.3</b>
+                <div><span class="stars" aria-hidden="true">★★★★<i>★</i></span><span class="mono">Google · 270+ reviews</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="voices__stage" data-voices aria-roledescription="carousel" aria-label="Member reviews">
+            <div class="voices__slides">
+              <figure class="voice is-active" aria-roledescription="slide" aria-label="1 of 3">
+                <blockquote>“Ideal gym for beginners. You will always have trainers on the floor to help. It's been almost 7 months for me in this gym and I recommend it to everyone.”</blockquote>
+                <figcaption><b>P. M.</b><span class="mono">Google review · 5★</span></figcaption>
+              </figure>
+              <figure class="voice" aria-roledescription="slide" aria-label="2 of 3">
+                <blockquote>“Very good gym, excellent crowd management, affordable for students. CrossFit, yoga, Zumba and kickboxing are available, and special abs batches run twice every week.”</blockquote>
+                <figcaption><b>Sushrut Patil</b><span class="mono">Google review</span></figcaption>
+              </figure>
+              <figure class="voice" aria-roledescription="slide" aria-label="3 of 3">
+                <blockquote>“Great facilities, helpful trainers and staff, cleanliness 10/10, open all day, ample parking space available.”</blockquote>
+                <figcaption><b>Kartik</b><span class="mono">Google review</span></figcaption>
+              </figure>
+            </div>
+            <div class="voices__ctrl">
+              <div class="voices__dots" role="group" aria-label="Choose review">
+                <button type="button" class="voices__dot is-active" aria-label="Review 1"><i></i></button>
+                <button type="button" class="voices__dot" aria-label="Review 2"><i></i></button>
+                <button type="button" class="voices__dot" aria-label="Review 3"><i></i></button>
+              </div>
+              <div class="voices__arrows">
+                <button type="button" class="round" data-voice-prev aria-label="Previous review">←</button>
+                <button type="button" class="round" data-voice-next aria-label="Next review">→</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 07 VISIT ============ -->
+    <section class="sec visit" id="visit" aria-labelledby="visit-title">
+      <div class="container">
+        <div class="sec-head">
+          <div>
+            <div class="sec-tag"><b>[07]</b> Visit</div>
+            <h2 class="display h2" id="visit-title" data-split>Find the <em class="volt">iron.</em></h2>
+          </div>
+          <p class="sec-aside" data-reveal>On the Pune–Mumbai Highway in Ambegaon Budruk, opposite Podar International School. Easy to reach from Katraj, Dhankawadi, Narhe and Sinhagad Road.</p>
+        </div>
+
+        <div class="visit__grid">
+          <div class="dial hud" data-reveal>
+            <div class="dial__face">
+            <svg class="dial__svg" viewBox="0 0 320 320" aria-hidden="true" data-dial>
+              <circle class="dial__track" cx="160" cy="160" r="132"/>
+              <path class="dial__open" data-dial-open d=""/>
+              <g data-dial-ticks></g>
+              <g class="dial__needle" data-dial-needle><path d="M160 72 V36"/><circle cx="160" cy="28" r="5"/></g>
+            </svg>
+            <div class="dial__read" data-status>
+              <span class="mono dial__now">Pune · <b data-clock-short>--:--</b> IST</span>
+              <b class="dial__state" data-status-big>Open daily</b>
+              <span class="mono" data-status-sub>06:00 — 22:00</span>
+            </div>
+            </div>
+            <ul class="days" aria-label="Open all seven days">
+              <li>Mon</li><li>Tue</li><li>Wed</li><li>Thu</li><li>Fri</li><li>Sat</li><li>Sun</li>
+            </ul>
+          </div>
+
+          <div class="visit__info">
+            <address class="addr hud" data-reveal>
+              <span class="mono addr__k">Address</span>
+              <p class="addr__main">Ace Fitness Club<br>Near Hotel Saurabh Family Restaurant,<br>Opp. Podar International School,<br>Pune–Mumbai Highway, Ambegaon Budruk,<br>Pune, Maharashtra 411046</p>
+              <div class="addr__phones">
+                <span class="mono addr__k">Call</span>
+                <a href="tel:+918380881555">+91 83808 81555</a>
+                <a href="tel:+918237271555">+91 82372 71555</a>
+                <a href="tel:+919970778888">+91 99707 78888</a>
+              </div>
+              <div class="addr__ctas">
+                <a class="btn btn--volt" href="https://www.google.com/maps/dir/?api=1&amp;destination=Ace+Fitness+Club,+Ambegaon+Budruk,+Pune+411046" target="_blank" rel="noopener">Get directions <span class="arr" aria-hidden="true">↗</span></a>
+                <a class="btn btn--ghost" href="https://wa.me/918380881555" data-wa="Hi Ace Fitness Club! I have a question about the gym." target="_blank" rel="noopener">WhatsApp us</a>
+              </div>
+            </address>
+            <div class="map hud" data-map data-src="https://maps.google.com/maps?q=Ace%20Fitness%20Club%2C%20Ambegaon%20Budruk%2C%20Pune%20411046&amp;z=16&amp;output=embed">
+              <div class="map__ph" aria-hidden="true">
+                <span class="map__ping"></span>
+                <span class="mono">Locating Ace · 18.4548° N, 73.8348° E</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 08 FAQ ============ -->
+    <section class="sec faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq__grid">
+        <div>
+          <div class="sec-tag"><b>[08]</b> FAQ</div>
+          <h2 class="display h2" id="faq-title" data-split>Before your <em class="volt">first rep.</em></h2>
+        </div>
+        <div class="faq__list" data-reveal>
+          <details class="qa">
+            <summary>What are your timings?<i aria-hidden="true"></i></summary>
+            <div class="qa__a"><p>We're open <strong>6:00 AM to 10:00 PM, all seven days</strong>. Early risers and late finishers are both covered.</p></div>
+          </details>
+          <details class="qa">
+            <summary>How much does a membership cost?<i aria-hidden="true"></i></summary>
+            <div class="qa__a"><p>Listed prices: Day Pass ₹200, Monthly ₹2,500, Half-Yearly ₹8,000 and Annual ₹10,000. Longer plans work out far cheaper per day. Ask the front desk about current offers.</p></div>
+          </details>
+          <details class="qa">
+            <summary>I've never been to a gym. Is Ace right for me?<i aria-hidden="true"></i></summary>
+            <div class="qa__a"><p>Yes. Members call Ace an ideal gym for beginners because trainers stay on the floor to guide form, set up equipment and answer questions. Start with a day pass if you want to feel it out.</p></div>
+          </details>
+          <details class="qa">
+            <summary>Do you offer classes as well as the gym floor?<i aria-hidden="true"></i></summary>
+            <div class="qa__a"><p>Yes: CrossFit, functional training, Zumba, yoga, kickboxing and dedicated abs batches twice a week, plus personal training and nutrition consultation. Batch timings change through the year, so check with the desk.</p></div>
+          </details>
+          <details class="qa">
+            <summary>Is Ace women-friendly?<i aria-hidden="true"></i></summary>
+            <div class="qa__a"><p>Ace is a unisex club with CCTV-monitored floors, changing rooms and showers. Ask the front desk about batches that suit your schedule.</p></div>
+          </details>
+          <details class="qa">
+            <summary>Is there parking?<i aria-hidden="true"></i></summary>
+            <div class="qa__a"><p>Yes, there's ample free parking right at the gym.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ JOIN ============ -->
+    <section class="sec join" id="join" aria-labelledby="join-title">
+      <div class="container join__grid">
+        <div class="join__copy">
+          <div class="sec-tag"><b>[09]</b> Start</div>
+          <h2 class="display join__title" id="join-title" data-split>Your first rep starts <em class="volt">here.</em></h2>
+          <p class="join__lead" data-reveal>Tell us what you're training for. We'll reply on WhatsApp with timings, current offers and the best plan for your goal.</p>
+          <div class="join__direct" data-reveal>
+            <a href="tel:+918380881555" class="join__phone">+91 83808 81555</a>
+            <span class="mono">or walk in: 6 AM – 10 PM, every day</span>
+          </div>
+        </div>
+
+        <form class="form hud" data-form novalidate data-reveal>
+          <div class="form__row">
+            <div class="field">
+              <label for="f-name">Your name</label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required minlength="2" placeholder="Aarav Kulkarni">
+              <span class="field__err" data-err="name">Tell us what to call you.</span>
+            </div>
+            <div class="field">
+              <label for="f-phone">Mobile number</label>
+              <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required placeholder="98XXX XXXXX">
+              <span class="field__err" data-err="phone">Enter a valid 10-digit mobile number.</span>
+            </div>
+          </div>
+
+          <fieldset class="field">
+            <legend>Main goal</legend>
+            <div class="pills">
+              <label class="pill"><input type="radio" name="goal" value="Fat loss" checked><span>Fat loss</span></label>
+              <label class="pill"><input type="radio" name="goal" value="Muscle gain"><span>Muscle gain</span></label>
+              <label class="pill"><input type="radio" name="goal" value="Strength"><span>Strength</span></label>
+              <label class="pill"><input type="radio" name="goal" value="General fitness"><span>General fitness</span></label>
+              <label class="pill"><input type="radio" name="goal" value="Group classes (Zumba / Yoga / CrossFit / Kickboxing)"><span>Group classes</span></label>
+              <label class="pill"><input type="radio" name="goal" value="Personal training"><span>Personal training</span></label>
+            </div>
+          </fieldset>
+
+          <fieldset class="field">
+            <legend>Best time to train</legend>
+            <div class="pills">
+              <label class="pill"><input type="radio" name="slot" value="Morning (6–11 AM)" checked><span>Morning</span></label>
+              <label class="pill"><input type="radio" name="slot" value="Afternoon (11 AM–5 PM)"><span>Afternoon</span></label>
+              <label class="pill"><input type="radio" name="slot" value="Evening (5–10 PM)"><span>Evening</span></label>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <label for="f-msg">Anything else? <span class="opt">(optional)</span></label>
+            <textarea id="f-msg" name="msg" rows="3" placeholder="Injuries, experience, questions…"></textarea>
+          </div>
+
+          <button class="btn btn--volt form__submit" type="submit">Send on WhatsApp <span class="arr" aria-hidden="true">↗</span></button>
+          <p class="form__ok mono" data-form-ok role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="logo" href="#top">
+            <svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true">
+              <path d="M8 42 24 7l16 35" fill="none" stroke="currentColor" stroke-width="4.5"/>
+              <path d="M10.5 30h27" stroke="#D7FF3A" stroke-width="2.4"/>
+              <rect x="7" y="25" width="4" height="10" rx="1" fill="#D7FF3A"/>
+              <rect x="37" y="25" width="4" height="10" rx="1" fill="#D7FF3A"/>
+            </svg>
+            <span class="logo__word"><span class="logo__ace">ACE</span> <span class="logo__sub">FITNESS CLUB</span></span>
+          </a>
+          <p>All progress takes place outside the comfort zone.</p>
+        </div>
+        <div class="footer__col">
+          <span class="mono">Visit</span>
+          <p>Near Hotel Saurabh Family Restaurant, Opp. Podar International School, Pune–Mumbai Hwy, Ambegaon Budruk, Pune 411046</p>
+        </div>
+        <div class="footer__col">
+          <span class="mono">Call</span>
+          <a href="tel:+918380881555">+91 83808 81555</a>
+          <a href="tel:+918237271555">+91 82372 71555</a>
+          <a href="tel:+919970778888">+91 99707 78888</a>
+        </div>
+        <div class="footer__col">
+          <span class="mono">Hours</span>
+          <p>Mon – Sun<br>6:00 AM – 10:00 PM</p>
+        </div>
+        <div class="footer__col">
+          <span class="mono">Follow</span>
+          <a href="https://www.instagram.com/acefitnessclub_/" target="_blank" rel="noopener">Instagram ↗</a>
+          <a href="https://www.facebook.com/Acefitnessclub2/" target="_blank" rel="noopener">Facebook ↗</a>
+          <a href="https://wa.me/918380881555" target="_blank" rel="noopener">WhatsApp ↗</a>
+        </div>
+      </div>
+
+      <div class="footer__mega" aria-hidden="true" data-reveal>
+        <span style="--i:0">A</span><span style="--i:1">C</span><span style="--i:2">E</span>
+      </div>
+
+      <div class="footer__base mono">
+        <span>© <span data-year>2026</span> Ace Fitness Club · Ambegaon Budruk, Pune</span>
+        <span>Prices &amp; timings as listed; subject to change</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile quick actions -->
+  <nav class="dock" aria-label="Quick actions" data-dock>
+    <a href="tel:+918380881555"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5h3.5l1.5 5-2.2 1.4a11 11 0 0 0 6.3 6.3l1.4-2.2 5 1.5V19a2 2 0 0 1-2 2A16.5 16.5 0 0 1 3 5.5a2 2 0 0 1 2-2z"/></svg>Call</a>
+    <a href="https://wa.me/918380881555" data-wa="Hi Ace Fitness Club! I'd like to book a visit to the gym." target="_blank" rel="noopener" class="dock__main"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-3.9A8.5 8.5 0 1 1 8.4 19z"/><path d="M9 9.5c.5 2.4 2.6 4.5 5 5"/></svg>WhatsApp</a>
+    <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Ace+Fitness+Club,+Ambegaon+Budruk,+Pune+411046" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Directions</a>
+  </nav>
+
+  <script src="assets/js/forge.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

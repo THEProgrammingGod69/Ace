@@ -1,0 +1,14 @@
+{
+  "name": "Ace Fitness Club — Ambegaon Budruk, Pune",
+  "short_name": "Ace Fitness",
+  "description": "Katraj–Ambegaon's biggest gym. Open 6 AM–10 PM, every day.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#08090A",
+  "theme_color": "#08090A",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "assets/img/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "assets/img/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
